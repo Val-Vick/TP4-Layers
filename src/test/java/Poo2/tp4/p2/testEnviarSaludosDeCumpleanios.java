@@ -14,6 +14,4 @@ public class testEnviarSaludosDeCumpleanios {
 		var brian = new Empleado("Johnson", "Brian", LocalDate.of(1975, 9, 11), "brian@acdc.com");
 
 		RepositorioEmpleados repoFake = new fakeRepositorioEmpleados();
-
-		LocalDate hoyEsElCumpleDeAngus = LocalDate.of(2024, 10, 8);
 	}}
